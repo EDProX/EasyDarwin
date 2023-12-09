@@ -13,7 +13,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/penggy/EasyGoLib/utils"
+	"github.com/EDProX/EasyGoLib/utils"
 )
 
 type Server struct {
@@ -29,7 +29,7 @@ type Server struct {
 
 var (
 	instance *Server
-	once sync.Once
+	once     sync.Once
 )
 
 func GetServer() *Server {

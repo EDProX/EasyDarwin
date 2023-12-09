@@ -12,6 +12,7 @@
     "build:dev": "go build -o EasyDarwin.exe",
     "dev": "go build -o EasyDarwin.exe",
     "dev:lin": "go build -o easydarwin",
+    "dev:mac": "go build -o easydarwin",
     "dev:www": "cd web_src && npm run start",
     "clean": "rimraf EasyDarwin.exe EasyDarwin.exe~ easydarwin"
   },

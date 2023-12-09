@@ -8,12 +8,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/EasyDarwin/EasyDarwin/models"
-	"github.com/EasyDarwin/EasyDarwin/rtsp"
+	"EasyDarwin/models"
+	"EasyDarwin/rtsp"
+
+	"github.com/EDProX/EasyGoLib/db"
+	"github.com/EDProX/EasyGoLib/utils"
+	"github.com/EDProX/sessions"
 	"github.com/gin-gonic/gin"
-	"github.com/penggy/EasyGoLib/db"
-	"github.com/penggy/EasyGoLib/utils"
-	"github.com/penggy/sessions"
 	"github.com/shirou/gopsutil/cpu"
 	"github.com/shirou/gopsutil/mem"
 )

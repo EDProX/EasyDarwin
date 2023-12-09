@@ -1,8 +1,8 @@
 package models
 
 import (
-	"github.com/penggy/EasyGoLib/db"
-	"github.com/penggy/EasyGoLib/utils"
+	"github.com/EDProX/EasyGoLib/db"
+	"github.com/EDProX/EasyGoLib/utils"
 )
 
 func Init() (err error) {

@@ -18,9 +18,9 @@ import (
 
 	"github.com/teris-io/shortid"
 
-	"github.com/penggy/EasyGoLib/utils"
+	"github.com/EDProX/EasyGoLib/utils"
 
-	"github.com/pixelbender/go-sdp/sdp"
+	"EasyDarwin/go-sdp/sdp"
 )
 
 type RTSPClient struct {
